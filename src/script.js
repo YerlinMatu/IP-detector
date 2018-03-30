@@ -7,8 +7,8 @@
   } 
   
   const ipPublicText = document.querySelector('#ip'),
-        ipPrivateText = document.querySelector('#ip-local');
-        plataformText = document.querySelector('#plataform');
+        ipPrivateText = document.querySelector('#ip-local'),
+        plataformText = document.querySelector('#plataform'),
         internetText = document.querySelector('#internet');
         
   axios.get(api.endpoint).then( response => {
